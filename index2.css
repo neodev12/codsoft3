@@ -1,0 +1,148 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: purple;
+    background-image: linear-gradient(rgb(163, 20, 182));
+    font-family: Oswald;
+    color: white;
+
+}
+nav{
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    height: 90px;
+    background-image: linear-gradient(purple, rgb(174, 59, 202));
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    
+}
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a:hover{
+    color: rgb(207, 237, 248);
+    font-size: 1.09rem;
+}
+.style3 img{  
+    width: 100%;
+    padding-bottom: 200px;
+    margin-bottom: 50px;
+    height:500px;
+} 
+.style2 h1{
+    position: absolute;
+    top: 50%;
+    bottom: 60%;
+    color: blueviolet;
+    padding-left: 50px;
+}  
+.style2 p{
+    position: absolute;
+    top: 60%;
+    bottom: 80%;
+    padding-left: 50px;
+    color: black;
+}
+.buttons {
+    position: absolute;
+    top: 80%;
+    bottom: 100%;
+    padding-left: 50px;
+
+}
+.btn1{
+    background-color: blueviolet;
+    border: 1.5px solid ;
+    border-radius: 140px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    width: 80px;
+    cursor: pointer;
+}
+.btn2{
+    background-color: blueviolet;
+    border: 1.5px solid ;
+    border-radius: 140px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    width: 130px;
+    cursor: pointer;
+}
+.btn1:hover {
+    background-color: rgb(136, 7, 154);
+    color: rgb(224, 216, 206);
+    transition-duration: 0.4s;
+}
+.btn2:hover {
+    background-color: rgb(136, 7, 154);
+    color: rgb(224, 216, 206);
+    transition-duration: 0.4s;
+}
+.ush1 h3{
+    top:610px;
+    bottom:220px;
+    padding-left: 50px;
+    position: absolute;
+}
+.ush1 p{
+    top: 640px;
+    bottom: 90px;
+    align-items: center;
+    padding-left: 50px;
+}
+.ush2 h3{
+    top:610px;
+    bottom:220px;
+    padding-left: 550px;
+    position: absolute;
+}
+.ush2 p{
+    top: 640px;
+    bottom: 90px;
+    padding-left: 550px;
+}
+.ush3 h3{
+    top:610px;
+    bottom:220px;
+    padding-left: 990px;
+    position: absolute;
+}
+.ush3 p{
+    top: 640px;
+    bottom: 90px;
+    padding-left: 990px;
+}
+
+.ush4 h1{
+    top: 710px;
+    bottom: 80px;
+    padding-left: 50px;
+    position: absolute;
+}
+.ush4 h3{
+    top: 760px;
+    bottom: 80px;
+    padding-left: 50px;
+    position: absolute;
+}
+.ush4 p{
+    top: 790px;
+    bottom: 200px;
+    padding-left: 50px;
+}
+.image img{
+    width: 25%;
+    border-radius: 330px;
+    border-style: solid;
+    margin-left: 73%;
+    position: absolute;
+    top: 720px;
+    border-color: rgb(1, 4, 27);
+}
+    
